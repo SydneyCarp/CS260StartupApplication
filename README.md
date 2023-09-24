@@ -16,7 +16,7 @@ Have you ever struggled to come up with new things to draw? Well this website is
 - Service - I will use Service for the login, retrieving chat messages, and retrieving saved generated ideas.
 - DB - I will use DB for storing chat messages and saved generated ideas.
 - Login - I will use Login for registering and loging users in. Users won't be abe to chat unless they have logged in.
-- WebSocket - I will user WebSocket to send messages to other users.
+- WebSocket - I will use WebSocket to send messages to other users.
 
 #Website Design
 ![Website Design CS 260](https://github.com/SydneyCarp/CS260StartupApplication/assets/96961638/5a46a4d8-2928-4620-ad59-8ea8b8f7aa5c)
