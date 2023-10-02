@@ -24,11 +24,11 @@ Have you ever struggled to come up with new things to draw? Well this website is
 # HTML deliverable
 For this deliverable I built out the structure of my application using HTML.
 
-HTML pages - Three HTML page that represent the idea generator page, chat page, and login page.
-Links - All pages contain buttons that link to their respective pages.
-Image - Image in the chat function. 
-Search - Search bar to search the database for saved ideas
-Text - Text box for placeholder for where the ideas will be generated, where the saved ideas will be shown, and where the chat function will be.
-Login - Input box for username and login and a submit button
-Database - The saved ideas that can be pulled from the database
-WebSocket - The chat with real time chatting function
+- HTML pages - Three HTML page that represent the idea generator page, chat page, and login page.
+- Links - All pages contain buttons that link to their respective pages.
+- Image - Image in the chat function. 
+- Search - Search bar to search the database for saved ideas
+- Text - Text box for placeholder for where the ideas will be generated, where the saved ideas will be shown, and where the chat function will be.
+- Login - Input box for username and login and a submit button
+- Database - The saved ideas that can be pulled from the database
+- WebSocket - The chat with real time chatting function
