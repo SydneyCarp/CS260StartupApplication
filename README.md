@@ -32,3 +32,13 @@ For this deliverable I built out the structure of my application using HTML.
 - Login - Input box for username and login and a submit button
 - Database - The saved ideas that can be pulled from the database
 - WebSocket - The chat with real time chatting function
+
+# CSS deliverable
+For this deliverable I properly styled the application into its final appearance.
+
+- I have a header, footer, and main content body for each page.
+- Navigation Elements - My buttons are properly sized and lead to the correct links.
+- Window Resizing - My site changes when resized and looks good in all sizes.
+- Elements - I used good whitespace, sizing, and contrast in all of my pages.
+- Text - I used consistant fonts, colors, and sizes between my different sites.
+- Image - Added an image in the chat function.
