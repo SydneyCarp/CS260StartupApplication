@@ -42,3 +42,11 @@ For this deliverable I properly styled the application into its final appearance
 - Elements - I used good whitespace, sizing, and contrast in all of my pages.
 - Text - I used consistant fonts, colors, and sizes between my different sites.
 - Image - Added an image in the chat function.
+
+# JavaScript deliverable
+For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
+
+login - I added JavaScript for future implementation of a login feature
+database - Will store art ideas in the locale storage and use local storage to save and display saved ideas. Will be replaced with a database later
+WebSocket - I added some webSocket elements to eventually have a chatting feature
+application logic - I added a promise to randomly generate and display art ideas. Will eventually be able to save, display, and remove art ideas
