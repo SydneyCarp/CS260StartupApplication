@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" href="main.css" />
+    <script src="index.js"></script>
+    <h3>
+      <div>
+        <button class="button big-button" name="HomeButton"><a href = "https://startup.cs-260-web-programming.click/"><h4>Home</h4></a>
+        </button>
+          </div>
+          <div>
+            <center>
+              <h1>Login</h1> 
+            </center>
+          </div>
+          <div>
+            <button class="button big-button" name="ChatButton"><a href = "https://startup.cs-260-web-programming.click/chat"><h4>Chat</h4></a>
+            </button>
+          </div>
+    </h3>
+    <hr/>
+  </header>
+  <body>
+    <main>
+      <div>
+        <form @submit.prevent="login">
+          <fieldset>
+            <legend>Username</legend>
+              <input v-model="username" placeholder="username" />
+            <legend>Password</legend>
+              <input v-model="password" placeholder="password" />
+        <button type="submit" :disabled="!username" and "!password">Login</button>
+        <div class="error" v-show="loginError"></div>
+      </fieldset>
+    </form>
+      </div>
+    </main>
+  </body>
+  <footer>
+      <div class="footer">
+        <a href="https://github.com/SydneyCarp/CS260StartupApplication/tree/main">My Github</a>
+      </div>
+    </footer>
+</html>

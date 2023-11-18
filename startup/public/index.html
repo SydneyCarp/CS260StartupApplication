@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <link rel="stylesheet" href="main.css" />
+    <script src="index.js"></script>    
+    <h3>
+      <div>
+        <button class="button big-button" name="LoginButton"><a href = "https://startup.cs-260-web-programming.click/login"><h4>Login</h4></a>
+        </button>
+      </div>
+      <div>
+        <center>
+          <h1>Art Idea Generator</h1> 
+        </center>
+      </div>
+      <div>
+        <button class="button big-button" name="ChatButton"><a href = "https://startup.cs-260-web-programming.click/chat"><h4>Chat</h4></a>
+        </button>
+      </div>
+    </h3>
+    <hr/>
+  </header>
+  
+  <body>
+    <main>
+    <section>
+      <center>
+      <h2>New Randomized Ideas</h2>
+      <table id="table-data">
+        <tr>
+          <th>
+            <ol id="ideas"></ol>
+          </th>
+        </tr>
+      </table>
+      <button onclick="generate()" type="button" name="GenerateButton">
+	      Generate
+      </button>
+      <button onclick="saveIdeas()" type="button" name="SaveButton">
+	      Save Idea
+      </button>
+      </center>
+    </section>
+    
+    <section>
+      <center>
+      <h2>Saved Ideas</h2>
+      <input type="search" name="myInput" placeholder="Search..." size="30">
+        <nav>
+          <table>
+            <tr>
+              <th>
+                <ol id="ideaList"></ol>
+              </th>
+            </tr>
+          </table>
+        </nav>
+    
+      <button onclick="loadIdeas()" type="button" name="LoadButton">
+	      Load Ideas
+      </button>
+        <button onclick="remove()" type="button" name="RemoveButton">
+	      Remove Selected Idea
+      </button> 
+      </center>
+    </section>
+    </main>
+    </body>
+    <footer>
+      <div class="footer">
+        <a href="https://github.com/SydneyCarp/CS260StartupApplication/tree/main">My Github</a>
+      </div>
+    </footer>
+</html>
