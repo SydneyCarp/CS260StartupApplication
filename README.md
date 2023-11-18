@@ -46,7 +46,16 @@ For this deliverable I properly styled the application into its final appearance
 # JavaScript deliverable
 For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
 
-login - I added JavaScript for future implementation of a login feature
-database - Will store art ideas in the locale storage and use local storage to save and display saved ideas. Will be replaced with a database later
-WebSocket - I added some webSocket elements to eventually have a chatting feature
-application logic - I added a promise to randomly generate and display art ideas. Will eventually be able to save, display, and remove art ideas
+- login - I added JavaScript for future implementation of a login feature
+- database - Will store art ideas in the locale storage and use local storage to save and display saved ideas. Will be replaced with a database later
+- WebSocket - I added some webSocket elements to eventually have a chatting feature
+- application logic - I added a promise to randomly generate and display art ideas. Will eventually be able to save, display, and remove art ideas
+
+# Service deliverable
+For this deliverable I added backend endpoints that receives votes and returns the voting totals.
+
+- Node.js/Express HTTP service - updated the index.js to match the needed HTTP service calls
+- Static middleware for frontend - added this to index.js
+- Calls to third party endpoints - Did not have a place to implment this
+- Backend service endpoints - Placeholders for login that stores the current user on the server
+- Frontend calls service endpoints - I do this in my idea generator
