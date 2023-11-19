@@ -52,10 +52,17 @@ For this deliverable I implemented by JavaScript so that the application works f
 - application logic - I added a promise to randomly generate and display art ideas. Will eventually be able to save, display, and remove art ideas
 
 # Service deliverable
-For this deliverable I added backend endpoints that receives votes and returns the voting totals.
+I added backend endpoints that receives ideas and returns ideas.
 
 - Node.js/Express HTTP service - updated the index.js to match the needed HTTP service calls
 - Static middleware for frontend - added this to index.js
 - Calls to third party endpoints - Did not have a place to implment this
 - Backend service endpoints - Placeholders for login that stores the current user on the server
 - Frontend calls service endpoints - I do this in my idea generator
+
+# DB deliverable
+For this deliverable I stored the ideas in the database.
+
+- Created a MongoDB Atlas database
+- Endpoints for data - My endpoint send information to mongo
+- Stores data in MongoDB
