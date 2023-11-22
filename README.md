@@ -66,3 +66,11 @@ For this deliverable I stored the ideas in the database.
 - Created a MongoDB Atlas database
 - Endpoints for data - My endpoint send information to mongo
 - Stores data in MongoDB
+
+# Login deliverable
+For this deliverable I associate the idea generator with the logged in user.
+
+- User registration - Creates a new account in the database.
+- existing user - Stores the ideas under the same user if the user already exists.
+- Use MongoDB to store credentials - Stores both user and their ideas.
+- Restricts functionality - You cannot generate ideas until you have logged in. 
