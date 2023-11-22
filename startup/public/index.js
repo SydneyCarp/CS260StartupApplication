@@ -68,16 +68,20 @@ function createIdea() {
 }
 
 function makeIdea(idea) {
-  const adjective1 = ["blue", "red", "pink", "green", "yellow", "purple", "lazy", "active", "confident", "sad", "happy"];
- const adjective2 = ["flying", "running", "walking", "sleeping", "painting", "thinking", "awake", "swimming"];
-  const noun = ["dog", "cat", "hamster", "hedgehog", "frog", "toad", "tiger", "lion", "cheetah", "platypus", "chameleon", "horse", "donkey", "meerkat", "goat", "squirrel", "monkey", "axolotl", "human", "deer"];
-  var random1 = Math.floor(Math.random() * adjective1.length);
-  var random2 = Math.floor(Math.random() * adjective2.length);
-  var random3 = Math.floor(Math.random() * noun.length);
-  var stringIdea = adjective1[random1] + " " + adjective2[random2] + " " + noun[random3];
-  const push = (idea) => tempIdea.push(idea.id);
-  return new Promise((resolve, reject) => {
-    doWork(idea, 1000, 3000, resolve, reject, stringIdea);
+  if(localStorage.getItem('userName') == '') {
+  } else {
+     const adjective1 = ["blue", "red", "pink", "green", "yellow", "purple", "lazy", "active", "confident", "sad", "happy"];
+     const adjective2 = ["flying", "running", "walking", "sleeping", "painting", "thinking", "awake", "swimming"];
+     const noun = ["dog", "cat", "hamster", "hedgehog", "frog", "toad", "tiger", "lion", "cheetah", "platypus", "chameleon", "horse", "donkey", "meerkat", "goat", "squirrel", "monkey", "axolotl", "human", "deer"];
+     var random1 = Math.floor(Math.random() * adjective1.length);
+     var random2 = Math.floor(Math.random() * adjective2.length);
+     var random3 = Math.floor(Math.random() * noun.length);
+     var stringIdea = adjective1[random1] + " " + adjective2[random2] + " " + noun[random3];
+     const push = (idea) => tempIdea.push(idea.id);
+     return new Promise((resolve, reject) => {
+     doWork(idea, 1000, 3000, resolve, reject, stringIdea);
+  }
+ 
   });
 }
 
