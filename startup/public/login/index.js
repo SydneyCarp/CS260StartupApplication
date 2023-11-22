@@ -87,7 +87,7 @@ function logout() {
 
 async function getUser(username) {
   let scores = [];
-  // See if we have a user with the given email.
+  // See if we have a user with the given username.
   const response = await fetch(`/api/user/${username}`);
   if (response.status === 200) {
     return response.json();
