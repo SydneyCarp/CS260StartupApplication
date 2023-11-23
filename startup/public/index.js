@@ -45,13 +45,15 @@ loadIdeas();
 let stack = [];
 let tempIdea = [];
 async function generate() {
-  const idea = createIdea();
-  
-  try {
-    await makeIdea(idea);
-    giveIdea(idea);
-  } catch (idea) {
-    badIdea(idea);
+  if(localStorage.getItem('userName') == '') {
+  } else {
+    const idea = createIdea();
+    try {
+      await makeIdea(idea);
+      giveIdea(idea);
+    } catch (idea) {
+      badIdea(idea);
+    }
   }
 }
 
@@ -68,8 +70,6 @@ function createIdea() {
 }
 
 function makeIdea(idea) {
-  if(localStorage.getItem('userName') == '') {
-  } else {
      const adjective1 = ["blue", "red", "pink", "green", "yellow", "purple", "lazy", "active", "confident", "sad", "happy"];
      const adjective2 = ["flying", "running", "walking", "sleeping", "painting", "thinking", "awake", "swimming"];
      const noun = ["dog", "cat", "hamster", "hedgehog", "frog", "toad", "tiger", "lion", "cheetah", "platypus", "chameleon", "horse", "donkey", "meerkat", "goat", "squirrel", "monkey", "axolotl", "human", "deer"];
@@ -80,8 +80,6 @@ function makeIdea(idea) {
      const push = (idea) => tempIdea.push(idea.id);
      return new Promise((resolve, reject) => {
      doWork(idea, 1000, 3000, resolve, reject, stringIdea);
-  }
- 
   });
 }
 
