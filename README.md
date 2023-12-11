@@ -73,4 +73,19 @@ For this deliverable I associate the idea generator with the logged in user.
 - User registration - Creates a new account in the database.
 - existing user - Stores the ideas under the same user if the user already exists.
 - Use MongoDB to store credentials - Stores both user and their ideas.
-- Restricts functionality - You cannot generate ideas until you have logged in. 
+- Restricts functionality - You cannot generate ideas until you have logged in.
+
+# WebSocket deliverable
+For this deliverable I used webSocket to add a chat on the frontend in realtime.
+
+- Added backend listens for WebSocket connection
+- Added frontend that makes WebSocket connection
+- Have data that is sent over WebSocket connection
+- WebSocket data displayed - Displays chat messages
+
+# React deliverable
+
+Bundled and transpiled - done!
+Components - Login, voting list, vote are all components.
+Router - Routing between login and voting components.
+Hooks - Vue uses class properties instead of UseState to track changes in vote state.
