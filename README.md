@@ -84,8 +84,3 @@ For this deliverable I used webSocket to add a chat on the frontend in realtime.
 - WebSocket data displayed - Displays chat messages
 
 # React deliverable
-
-Bundled and transpiled - done!
-Components - Login, voting list, vote are all components.
-Router - Routing between login and voting components.
-Hooks - Vue uses class properties instead of UseState to track changes in vote state.
