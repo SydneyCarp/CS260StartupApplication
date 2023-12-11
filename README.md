@@ -81,6 +81,6 @@ For this deliverable I used webSocket to add a chat on the frontend in realtime.
 - Added backend listens for WebSocket connection
 - Added frontend that makes WebSocket connection
 - Have data that is sent over WebSocket connection
-- WebSocket data displayed - Displays chat messages
+- WebSocket data displayed - has the backend to be able to display chats
 
 # React deliverable
