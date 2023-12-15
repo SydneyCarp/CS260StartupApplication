@@ -88,5 +88,5 @@ For this deliverable I used webSocket to add a chat on the frontend in realtime.
 - I bundled using WebPack and Babel
 - Components - Beginning of login, chat, and idea generator components were added
 - Router - Beginning of routing between login, chat, and idea generator was added
-- Hooks - Did not have patience to implement
+- Hooks - Did not have sanity to implement
 
