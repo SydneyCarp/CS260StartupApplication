@@ -84,3 +84,9 @@ For this deliverable I used webSocket to add a chat on the frontend in realtime.
 - WebSocket data displayed - has the backend to be able to display chats
 
 # React deliverable
+
+- I bundled using WebPack and Babel
+- Components - Login and idea generator are components
+- Router - Routing between login and idea generator was created
+- Hooks - use to check login
+
